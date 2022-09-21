@@ -1,0 +1,21 @@
+git process in vdi :
+it is configured already or else we need to configure by 
+
+git config --global user.name "divya"
+git config --global user.email "divya.bandarupalli8@gmail.com"
+
+then initialize the git
+
+git init 
+git add filename or git add .(means all files)
+
+commit changes with commit command
+
+git commit -m "commit line"
+
+git remote add origin url of our repository
+
+git remote -v (to verify)
+
+git push origin main 
+>this is used to get the connection between local directory and our repository
